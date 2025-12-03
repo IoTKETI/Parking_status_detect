@@ -565,7 +565,7 @@ def run_detection_loop(model, cap, parking_lines, original_parking_lines, rtsp_u
                 initial_frame_read = True
 
         result_image = draw_status_on_image(frame, original_parking_lines, parking_status, diou_scores)
-        cv2.imshow('Area06 Detection', result_image)
+        cv2.imshow('Area08 Detection', result_image)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
